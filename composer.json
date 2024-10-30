@@ -1,0 +1,21 @@
+{
+    "name": "philip/wp-bluefield",
+    "description": "WordPress plugin for Bluefield Identity Inc",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Bluefield\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Craig Heath",
+            "email": "cheath@bluefieldidentity.com"
+        },
+        {
+            "name": "Philip Rudy",
+            "email": "me@philiparudy.com"
+        }
+    ]
+}
